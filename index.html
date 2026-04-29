@@ -1,12 +1,31 @@
 <!doctype html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>dt207g_lab3_frontend</title>
-  </head>
-  <body>
-    <div id="app"></div>
-    <script type="module" src="/src/main.js"></script>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Startsida</title>
+</head>
+
+<body>
+  <div id="app">
+    <header>
+      <a href="/" class="logo">DT207G Laboration 3</a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/add.html">Lägg till</a></li>
+          <li><a href="/about.html">Om webbplatsen</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section id="center">
+      <h1>CV</h1>
+      <ul id="cv-list"></ul>
+    </section>
+  </div>
+  <script type="module" src="/src/main.js"></script>
+</body>
+
 </html>

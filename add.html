@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lägg till</title>
+</head>
+
+<body>
+    <div id="app">
+        <header>
+            <a href="/" class="logo">DT207G Laboration 3</a>
+
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="/add.html">Lägg till</a></li>
+                    <li><a href="/about.html">Om webbplatsen</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="center">
+            <h1>Lägg till ny arbetserfarenhet</h1>
+            <form id="form" autocomplete="off">
+                <label for="companyname">Företag</label>
+                <input id="companyname" name="companyname" type="text">
+
+                <label for="jobtitle">Jobbtitel</label>
+                <input id="jobtitle" name="jobtitle" type="text">
+
+                <label for="startdate">Startdatum</label>
+                <input id="startdate" name="startdate" type="date">
+
+                <label for="enddate">Slutdatum</label>
+                <input id="enddate" name="enddate" type="date">
+
+                <button id="submit-btn" type="submit">Spara</button>
+                <ul id="error"></ul>
+                <p id="confirmation"></p>
+            </form>
+        </section>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+</body>
+
+</html>
