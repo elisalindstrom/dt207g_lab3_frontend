@@ -40,7 +40,7 @@ a:hover {
 button {
     cursor: pointer;
     border: 1px solid;
-    background-color: #000000;
+    background-color: #2f4f4f;
     color: #f8f8ff;
     padding: 0.5rem 1rem;
     border-radius: 10px;
@@ -95,14 +95,58 @@ header {
     justify-content: center;
 }
 
+/* Lista arbetserfarenheter */
 #cv-list li {
     background-color: #f5fffa;
     box-shadow: 0 3px 10px #dcdcdc;
     margin-bottom: 1rem;
     display: flex;
     flex-direction: column;
-    border-radius: 20px;
     padding: 1rem;
+}
+
+/* Form */
+#form {
+    background-color: #f5fffa;
+    padding: 1rem;
+    box-shadow: 0 3px 10px #dcdcdc;
+    margin-bottom: 2rem;
+}
+
+#form li {
+    margin-left: 1rem;
+}
+
+#error,
+#confirmation {
+    color: darkcyan;
+    margin-top: 0.5rem;
+}
+
+label {
+    display: block;
+    margin-top: 0.3rem;
+}
+
+input {
+    width: 100%;
+    padding: 0.8rem;
+    min-height: 44px;
+    border: 1px solid #dcdcdc;
+    margin-top: 0.2rem;
+    margin-bottom: 0.5rem;
+    cursor: text;
+}
+
+select {
+    max-width: 230px;
+    width: 100%;
+    padding: 0.8rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
+    min-height: 44px;
+    border: 1px solid #dcdcdc;
+    cursor: pointer;
 }
 
 @media (max-width: 750px) {

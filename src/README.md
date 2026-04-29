@@ -3,6 +3,6 @@ Applikation som hämtar data från en webbtjänst som hanterar arbetserfarenhete
 Det går förutom att hämta data även att lägga till ny data via ett formulär samt radera data.
 
 ## Länkar
-Webbtjänst som används: https://dt207g-lab3.onrender.com/workexperience
+Webbtjänst: https://dt207g-lab3.onrender.com/workexperience
 
-Länk till applikationen:
+Länk till applikationen: https://dt207g-lab3-frontend.onrender.com

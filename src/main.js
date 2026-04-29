@@ -1,4 +1,4 @@
-import './style.css'
+"use strict";
 
 fetchWorkexperiences();
 
@@ -9,8 +9,6 @@ async function fetchWorkexperiences() {
         const workexperience = await response.json();
 
         if (!workexperience) return;
-
-        console.log(workexperience); // Ta bort
 
         displayWorkexperiences(workexperience);
     } catch (error) {
